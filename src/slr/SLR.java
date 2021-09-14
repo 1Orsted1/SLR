@@ -27,7 +27,6 @@ public class SLR {
      
      System.out.println("Please introduce the x value");
      x = sc.nextDouble();
-     System.out.println (new File (".").getAbsolutePath ());
      SLP = new LinearRegresion(dataset, x);
      
      SLP.RE();

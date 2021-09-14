@@ -22,10 +22,10 @@ public class LinearRegresion {
 
     private void Generate() {
         for (int i = 0; i < dataset.length; i++) {
-            sumx = dataset[i][1];
-            sumy = dataset[i][0];
-            sumxsq = dataset[i][1] * dataset[i][1];
-            sumxy = dataset[i][1] * dataset[i][0];
+            sumx += dataset[i][1];
+            sumy += dataset[i][0];
+            sumxsq += dataset[i][1] * dataset[i][1];
+            sumxy += dataset[i][1] * dataset[i][0];
         }
     }
 
